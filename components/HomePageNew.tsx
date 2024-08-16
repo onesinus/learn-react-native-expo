@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { MyFunctionalComponent, MyClassComponent } from "./LearnFunctionalComponent";
+import { LearnMoreHooks } from "./LearnMoreHooks";
 
 export function HomePageNew({ version }) {
 	// if (version == 1) {
@@ -30,6 +31,7 @@ export function HomePageNew({ version }) {
 						["pop", "rock"]
 					}			
 				/>
+				<LearnMoreHooks />
 			</div>
 		</>
 	)
